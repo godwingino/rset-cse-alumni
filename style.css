@@ -1,0 +1,194 @@
+/* Google Fonts */
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "SF Pro Display", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/*Scrool Bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--main-color); 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+/* Colors */
+:root {
+  --main-color: #570303;
+  --second-color: #000000;
+}
+section {
+  padding: 100px;
+}
+/* Home CSS */
+#home {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Navbar CSS */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 100px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  transition: 0.5s;
+}
+/* Logo CSS */
+.logo {
+  text-transform: none;
+  font-size: 3rem;
+  font-family: SF Pro Display;
+  color: var(--second-color);
+  font-weight: 700;
+}
+ul {
+  display: flex;
+}
+ul li a {
+  padding: 10px 30px;
+  color: var(--second-color);
+  border-radius: 2px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+ul li a:hover {
+  background: var(--main-color);
+  color: #fff;
+  border: none;
+}
+span{
+    color: var(--main-color);
+}
+/* main */
+.hero{
+    width: 1440px;
+    height: 656px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+.hero h3{
+    color:var(--second-color);
+    font-family: SF Pro Display;
+    font-size: 70.012px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 161px;
+    margin-left: 179px;
+}
+.hero h2{
+    color: var(--second-color);
+    font-family: SF Pro Display;
+    font-size: 163.646px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -40px;
+    margin-left: 172px;
+    width: 677px;
+}
+.hero p{
+    color: var(--second-color);
+    font-family: SF Pro Display;
+    font-size: 23.5px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    margin-left: 188px;
+    margin-top: -18px;
+}
+.btn{
+    color: #FFF;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 26.887px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 120px;
+    height: 42.417px;
+    flex-shrink: 0;
+    border-radius: 7.251px;
+    background: var(--main-color);
+    margin-left: 188px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 0px 4px 10px 4px rgba(87, 3, 3, 0.40);
+
+}
+.btndiv{
+    margin-top: -10px;
+}
+.btndiv p{
+    color: var(--second-color);
+    font-family: SF Pro Display;
+    font-size: 23.026px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.042px;
+    margin-left: 322px;
+    margin-top: -37px;
+}
+.info h3{
+    color: var(--second-color);
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 36.923px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: -43px;
+    margin-left: 722px;
+    
+}
+.pic{
+    width: 615.75px;
+    height: 378.923px;
+    flex-shrink: 0;
+    margin-left: 125px;
+}
+.whowe svg{
+    margin-left:800px;
+}
+.whowe{
+    margin-top: -330px;
+}
+.whowe p{
+    color: var(--second-color);
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 134.523%; /* 26.905px */
+    letter-spacing: 0.3px;
+    margin-left: 853px;
+    margin-top: 33px;
+}

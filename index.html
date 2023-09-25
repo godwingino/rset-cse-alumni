@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect. - WebApp</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+     <!-- Navbar -->
+     <nav>
+        <a href="#" class="logo">R<span class="logos">.</span></a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+
+        <!-- Menu -->
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Events</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Chat</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h3 class="home-text">Introducing</h3>
+        <h2 class="home">ReConnect<span>.</span></h2>
+        <p class="home">The official Computer Science Alumni Network of RSET.</p>
+        <div class="btndiv">
+            <input type="button" class="btn" value="Login"> <p>to connect with your fellow rajagirians.</p>
+        </div>
+    </section>
+    <section class="info">
+        <img class="pic" src="/assets/whowe.png" alt="">
+        <div class="whowe">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                <circle cx="17.5" cy="17.5" r="17.5" fill="#570303"/>
+              </svg><h3 id="about">Who We Are ---------------- </h3>
+              <p>Rajagiri School of Engineering and Technology (RSET) <br> has been a pioneer in engineering education in Kochi, <br> Kerala. Established in [year], RSET has consistently <br> strived for excellence in education, research, and <br>innovation. Our alumni have played a pivotal role in <br> carrying forward this legacy, making a significant <br>impact on the world stage.</p>
+        </div>
+        
+    </section>
+    <!-- Scroll Animation -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link To JS -->
+    <script src="main.js"></script>
+</body>
+</html>
