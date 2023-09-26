@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connect. - WebApp</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
      <!-- Navbar -->
      <nav>
-        <a href="#" class="logo">R<span class="logos">.</span></a>
+        <a href="#" class="logoe">R<span class="logose">.</span></a>
         <div class="toggle" onclick="toggleMenu();"></div>
 
         <!-- Menu -->
         <ul class="menu">
-            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#" onclick="toggleMenu();">Home</a></li>
             <li><a href="#about" onclick="toggleMenu();">About</a></li>
             <li><a href="#services" onclick="toggleMenu();">Events</a></li>
             <li><a href="#work" onclick="toggleMenu();">Chat</a></li>
@@ -28,20 +28,71 @@
             <input type="button" class="btn" value="Login"> <p>to connect with your fellow rajagirians.</p>
         </div>
     </section>
-    <section class="info">
+    <section class="info"id="about">
         <img class="pic" src="./assets/whowe.png" alt="">
         <div class="whowe">
             
             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
                 <circle cx="17.5" cy="17.5" r="17.5" fill="#570303"/>
-              </svg><h3 id="about">Who We Are ---------------- </h3>
+              </svg><h3 >Who We Are ---------------- </h3>
               <p>Rajagiri School of Engineering and Technology (RSET) <br> has been a pioneer in engineering education in Kochi, <br> Kerala. Established in [year], RSET has consistently <br> strived for excellence in education, research, and <br>innovation. Our alumni have played a pivotal role in <br> carrying forward this legacy, making a significant <br>impact on the world stage.</p>
         </div>
         
     </section>
+    <section>
+        <div class="alumniwork">
+             <h2>Our Alumni work at</h2>
+             <div class="logos">
+                <div class="logos-slide">
+                    <img src="https://source.unsplash.com/_C5zsV_p-YI/900x900">
+                    <img src="https://source.unsplash.com/58WRkqcAn9o/900x900">
+                    <img src="https://source.unsplash.com/9z-veIxii6k/900x900">
+                    <img src="https://source.unsplash.com/AwnggmGaFms/900x900">
+                    <img src="https://source.unsplash.com/Bi0atWiKP-4/900x900">
+                    <img src="https://source.unsplash.com/YeOMRwgvPv4/900x900">
+                    <img src="https://source.unsplash.com/3cNc1U7nJcs/900x900">
+                    <img src="https://source.unsplash.com/mNOaXIjJkok/900x900">
+                    <img src="https://source.unsplash.com/pz_hAv6ER7c/900x900">
+                    <img src="https://source.unsplash.com/oqmIM9bkAWQ/900x900">
+                    <img src="https://source.unsplash.com/Sjk38bu7VXg/900x900">
+                    <img src="https://source.unsplash.com/9jsV5uKbAEM/900x900">
+                    <img src="https://source.unsplash.com/CgR5CX2j0mc/900x900">
+                    <img src="https://source.unsplash.com/aAmYwM9dHUM/900x900">
+                    <img src="https://source.unsplash.com/yN7prWLW7xg/900x900">
+                </div>
+              </div>
+          
+              <script>
+                var copy = document.querySelector(".logos-slide").cloneNode(true);
+                document.querySelector(".logos").appendChild(copy);
+              </script>
+        </div>
+       
+    </section>
+    <section class="info">
+        <div class="alum">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                <circle cx="17.5" cy="17.5" r="17.5" fill="#570303"/>
+              </svg><h3 id="about">Alumni Achievements ------------- </h3>
+              <p>We love to celebrate your accomplishments! Share your success stories with us, and let us feature them on our website and social media.</p>
+        </div>
+        <img class="pic1" src="./assets/achive.png" alt="">
+        <div class="btndiv1">
+            <input type="button" class="btn1" value="Discover">
+        </div>
+        
+        
+    </section>
+
+    
     <!-- Scroll Animation -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Link To JS -->
     <script src="main.js"></script>
+    <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+      </script>
 </body>
 </html>
