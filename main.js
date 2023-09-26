@@ -7,28 +7,29 @@ function toggleMenu(){
 }
 
 
+
 // Scroll Animation
 const sr = ScrollReveal({
-    origin: 'top',
+    origin: 'left',
     distance:'85px',
     duration:2000,
     reset: true
 })
 
 const sr1 = ScrollReveal({
-    origin: 'left',
+    origin: 'right',
     distance: '85px',
     duration:2000,
     reset: true
 })
-                
-sr1.reveal ('.home-text',{delay : 300)}
+ScrollReveal().reveal('.alum', { origin: 'left' , delay:100 });
+ScrollReveal().reveal('.btn1', { origin: 'left' , delay:200 });
+sr1.reveal ('.home-text',{})
 sr1.reveal ('.btndiv',{delay:400})
 sr.reveal ('.home',{delay:300})
 
 sr.reveal ('.whowe',{})
-sr.reveal ('.heading',{})
-sr.reveal ('.about-text',{delay:200})
+
 
 sr.reveal ('.services-content',{})
 
