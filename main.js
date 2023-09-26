@@ -21,8 +21,8 @@ const sr1 = ScrollReveal({
     duration:2000,
     reset: true
 })
-
-sr1.reveal ('.home-text',{})
+                
+sr1.reveal ('.home-text',{delay : 300)}
 sr1.reveal ('.btndiv',{delay:400})
 sr.reveal ('.home',{delay:300})
 
