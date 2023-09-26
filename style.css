@@ -94,7 +94,7 @@ span{
 }
 .hero h3{
     color:var(--second-color);
-    font-family: SF Pro Display;
+    font-family: "SF Pro Display", sans-serif;
     font-size: 70.012px;
     font-style: normal;
     font-weight: 500;
@@ -104,7 +104,7 @@ span{
 }
 .hero h2{
     color: var(--second-color);
-    font-family: SF Pro Display;
+    font-family: "SF Pro Display", sans-serif;
     font-size: 163.646px;
     font-style: normal;
     font-weight: 700;
@@ -115,7 +115,7 @@ span{
 }
 .hero p{
     color: var(--second-color);
-    font-family: SF Pro Display;
+    font-family: "SF Pro Display", sans-serif;
     font-size: 23.5px;
     font-style: normal;
     font-weight: 300;
@@ -127,7 +127,7 @@ span{
 .btn{
     color: #FFF;
     text-align: center;
-    font-family: SF Pro Display;
+    font-family: "SF Pro Display", sans-serif;
     font-size: 26.887px;
     font-style: normal;
     font-weight: 600;
@@ -148,7 +148,7 @@ span{
 }
 .btndiv p{
     color: var(--second-color);
-    font-family: SF Pro Display;
+    ffont-family: "SF Pro Display", sans-serif;
     font-size: 23.026px;
     font-style: normal;
     font-weight: 300;
@@ -160,7 +160,7 @@ span{
 .info h3{
     color: var(--second-color);
     text-align: center;
-    font-family: SF Pro Display;
+    font-family: "SF Pro Display", sans-serif;
     font-size: 36.923px;
     font-style: normal;
     font-weight: 600;
@@ -183,7 +183,7 @@ span{
 }
 .whowe p{
     color: var(--second-color);
-    font-family: SF Pro Display;
+    font-family: "SF Pro Display", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 200;
